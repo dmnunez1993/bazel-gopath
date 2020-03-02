@@ -30,7 +30,7 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	build "github.com/DarkDNA/bazel-gopath/bazel_query_proto"
+	build "github.com/dmnunez1993/bazel-gopath/bazel_query_proto"
 )
 
 var (
