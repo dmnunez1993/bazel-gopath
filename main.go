@@ -252,7 +252,7 @@ func processProto(queryResult build.QueryResult) {
 					}
 
 					pkgPath := filepath.Join(goPrefix, filepath.Base(name))
-					path := filepath.Join(ruleLabel, "linux_amd64_pure_stripped", rawRuleName+"%", pkgPath)
+					path := filepath.Join(ruleLabel, "linux_amd64_stripped", rawRuleName+"%", pkgPath)
 
 					src := filepath.Join(wsPath, path)
 					dest := filepath.Join(*gopathOut, "src", pkgPath)
